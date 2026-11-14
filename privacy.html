@@ -35,7 +35,7 @@
       <section class="section" aria-labelledby="finalidad">
         <h2 id="finalidad">3. Finalidad del acceso</h2>
         <p>El acceso se utiliza para guardar copias cifradas de los datos y la configuración de P1, guardar sus archivos de comprobación y descargar los archivos para verificar la transferencia o realizar un ensayo de recuperación.</p>
-        <p>La configuración actual de la herramienta no ejecuta borrados automáticos por antigüedad. El propietario controla las operaciones y cualquier modificación de esta configuración.</p>
+        <p>La herramienta incorpora una política de retención de 45 días para las copias automáticas. Su aplicación requiere activación del propietario y se realiza únicamente después de crear, subir y verificar correctamente una nueva copia.</p>
       </section>
       <section class="section" aria-labelledby="almacenamiento">
         <h2 id="almacenamiento">4. Almacenamiento y protección</h2>
@@ -50,7 +50,9 @@
       </section>
       <section class="section" aria-labelledby="conservacion">
         <h2 id="conservacion">6. Conservación y eliminación</h2>
-        <p>En la configuración actual no hay un plazo automático de eliminación de las copias. Se conservan hasta que el propietario decida retirarlas.</p>
+        <p>La política definida conserva las copias automáticas de los últimos 45 días y protege siempre la copia verificada más reciente, aunque sea más antigua. Las copias manuales y la copia final de la migración quedan excluidas de esta limpieza.</p>
+        <p>Al activar la política, las copias automáticas de más de 45 días y sus archivos de comprobación se envían a la papelera de Google Drive; tras confirmar esas operaciones se eliminan sus archivos correspondientes del servidor. La herramienta no vacía la papelera. Google aplica sus propias reglas de conservación y eliminación de la papelera; el propietario debe tenerlas en cuenta al recuperar archivos o revisar su cuota.</p>
+        <p>Si falla la nueva copia o se detecta una discrepancia de archivos, la limpieza se detiene. Una interrupción durante la limpieza puede dejar operaciones parciales que el propietario debe revisar antes de continuar. Las copias manuales, las de migración y los archivos de recuperación en otros equipos se conservan hasta que el propietario decida retirarlos.</p>
         <p>Para eliminar una copia deben revisarse sus ubicaciones en Drive y las copias locales o de recuperación conservadas. Eliminar un archivo de una ubicación no garantiza que se hayan eliminado sus demás copias.</p>
       </section>
       <section class="section" aria-labelledby="revocacion">
