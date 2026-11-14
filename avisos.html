@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="P1 Avisos Backups: herramienta privada para enviar avisos de fallo de las copias mediante Gmail.">
+    <title>P1 Avisos Backups · Información de la herramienta</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <a class="brand" href="avisos.html">P1 Avisos Backups</a>
+      <nav aria-label="Navegación principal">
+        <a href="avisos.html" aria-current="page">Inicio</a>
+        <a href="avisos-privacy.html">Privacidad</a>
+      </nav>
+    </header>
+    <main id="contenido">
+      <section class="intro" aria-labelledby="titulo">
+        <p class="eyebrow">Herramienta privada de avisos</p>
+        <h1 id="titulo">Un aviso cuando falla una copia de P1.</h1>
+        <p class="lead">P1 Avisos Backups está diseñada para enviar al propietario un correo de aviso cuando falla el servicio de copias de seguridad del proyecto P1.</p>
+        <a class="button" href="avisos-privacy.html">Consultar la política de privacidad <span aria-hidden="true">↗</span></a>
+      </section>
+      <section class="section" aria-labelledby="funcionamiento">
+        <h2 id="funcionamiento">Qué información envía</h2>
+        <p>El mensaje indica el estado de fallo del servicio y la fecha del aviso. No incluye logs, contenido de la base de datos, contraseñas ni archivos de copia adjuntos.</p>
+        <p>El remitente y el destinatario están fijados en la herramienta. La autorización corresponde a la cuenta de Gmail del propietario; esta página no ofrece registro público ni un formulario para conectar otras cuentas.</p>
+      </section>
+      <section class="section" aria-labelledby="permiso">
+        <h2 id="permiso">Permiso exclusivo de envío</h2>
+        <p>La herramienta solicita únicamente <code>https://www.googleapis.com/auth/gmail.send</code>, para enviar los avisos mediante Gmail API. No solicita permisos para leer el buzón ni acceder a Google Drive.</p>
+        <p>Su autorización es independiente de P1 Backups, la herramienta que guarda las copias cifradas en Drive. No se utilizan los correos para publicidad ni para entrenar modelos de inteligencia artificial.</p>
+      </section>
+      <section class="contact section" aria-labelledby="contacto">
+        <h2 id="contacto">Contacto</h2>
+        <p>Consultas sobre la herramienta y su autorización de Gmail:</p>
+        <a href="mailto:recsanenterprise@gmail.com">recsanenterprise@gmail.com</a>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <span>P1 Avisos Backups</span>
+      <a href="avisos-privacy.html">Política de privacidad</a>
+    </footer>
+  </body>
+</html>
