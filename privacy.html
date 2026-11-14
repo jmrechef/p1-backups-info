@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Cómo P1 Backups accede a Google Drive, utiliza las autorizaciones y almacena las copias cifradas.">
+    <title>Política de privacidad · P1 Backups</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <a class="brand" href="index.html">P1 Backups</a>
+      <nav aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="privacy.html" aria-current="page">Privacidad</a>
+      </nav>
+    </header>
+    <main id="contenido" class="policy">
+      <p class="eyebrow">P1 Backups</p>
+      <h1>Política de privacidad</h1>
+      <p class="updated">Última actualización: 14 de noviembre de 2026</p>
+      <p class="lead">Esta página describe el tratamiento configurado para P1 Backups, una herramienta privada de copias de seguridad del proyecto P1 utilizada por el propietario de la cuenta de Google autorizada.</p>
+      <section class="section" aria-labelledby="contacto">
+        <h2 id="contacto">1. Contacto de la herramienta</h2>
+        <p>El propietario administra la autorización y las copias. Para consultas sobre este uso de Google Drive o la retirada de acceso, el contacto es <a href="mailto:recsanenterprise@gmail.com">recsanenterprise@gmail.com</a>.</p>
+      </section>
+      <section class="section" aria-labelledby="datos">
+        <h2 id="datos">2. Acceso a los datos de Google</h2>
+        <p>P1 Backups utiliza rclone y la API de Google Drive con el permiso <code>https://www.googleapis.com/auth/drive.file</code>. Este permiso permite crear, leer, actualizar o eliminar los archivos y carpetas autorizados para la aplicación, incluidos los que ella crea. No concede acceso general al resto de Drive.</p>
+        <p>La configuración actual trabaja en una carpeta creada mediante esta autorización. Consulta la información necesaria para localizar y comprobar sus archivos, como nombre, identificador, tamaño y contenido cifrado.</p>
+        <p>La autorización se realiza en las páginas de Google. La contraseña de la cuenta de Google no se introduce en P1 Backups.</p>
+      </section>
+      <section class="section" aria-labelledby="finalidad">
+        <h2 id="finalidad">3. Finalidad del acceso</h2>
+        <p>El acceso se utiliza para guardar copias cifradas de los datos y la configuración de P1, guardar sus archivos de comprobación y descargar los archivos para verificar la transferencia o realizar un ensayo de recuperación.</p>
+        <p>La configuración actual de la herramienta no ejecuta borrados automáticos por antigüedad. El propietario controla las operaciones y cualquier modificación de esta configuración.</p>
+      </section>
+      <section class="section" aria-labelledby="almacenamiento">
+        <h2 id="almacenamiento">4. Almacenamiento y protección</h2>
+        <p>Las copias se cifran antes de enviarse a Google Drive y se guardan en la cuenta autorizada. También pueden conservarse copias y archivos de recuperación en los equipos privados del propietario y en el servidor de P1.</p>
+        <p>Las credenciales de autorización necesarias para renovar el acceso se almacenan en el servidor con permisos de acceso restringidos. No se incluyen en las páginas públicas ni en el repositorio destinado a alojarlas.</p>
+        <p>El descifrado requiere la clave privada de recuperación, que el propietario conserva fuera del servidor. Las pruebas de recuperación pueden generar archivos descifrados en entornos privados, cuya custodia y eliminación corresponde al propietario.</p>
+      </section>
+      <section class="section" aria-labelledby="comunicacion">
+        <h2 id="comunicacion">5. Destinatarios y publicación</h2>
+        <p>Google Drive se utiliza como servicio de almacenamiento de los archivos cifrados. La herramienta no publica las copias ni crea enlaces de acceso público a ellas. El uso descrito consiste en guardar y comprobar copias para la recuperación de P1.</p>
+        <p>Esta web informativa es independiente de las copias y no contiene formularios de autorización, analítica añadida ni scripts de seguimiento. El alojamiento previsto es GitHub Pages. GitHub aplica sus propias prácticas de tratamiento de datos del servicio, descritas en su <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">declaración de privacidad</a>.</p>
+      </section>
+      <section class="section" aria-labelledby="conservacion">
+        <h2 id="conservacion">6. Conservación y eliminación</h2>
+        <p>En la configuración actual no hay un plazo automático de eliminación de las copias. Se conservan hasta que el propietario decida retirarlas.</p>
+        <p>Para eliminar una copia deben revisarse sus ubicaciones en Drive y las copias locales o de recuperación conservadas. Eliminar un archivo de una ubicación no garantiza que se hayan eliminado sus demás copias.</p>
+      </section>
+      <section class="section" aria-labelledby="revocacion">
+        <h2 id="revocacion">7. Revocar el acceso</h2>
+        <p>El propietario puede retirar la autorización desde las <a href="https://myaccount.google.com/connections">conexiones de su cuenta de Google</a> o contactar con <a href="mailto:recsanenterprise@gmail.com">recsanenterprise@gmail.com</a> para revisar la configuración.</p>
+        <p>La retirada de autorización impide que la herramienta siga usando ese acceso una vez que Google hace efectiva la revocación. No elimina por sí sola los archivos que ya se hayan guardado ni las copias locales.</p>
+      </section>
+      <section class="section" aria-labelledby="cambios">
+        <h2 id="cambios">8. Cambios en esta información</h2>
+        <p>Si cambia el acceso solicitado o el tratamiento de las copias, esta información debe actualizarse antes de utilizar la nueva configuración.</p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a href="index.html">P1 Backups · Inicio</a>
+      <span>Contacto: <a href="mailto:recsanenterprise@gmail.com">recsanenterprise@gmail.com</a></span>
+    </footer>
+  </body>
+</html>
